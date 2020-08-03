@@ -1,4 +1,4 @@
-const FILES_TO_CACHE = ["/", "./index.html", "./styles.css"];
+const FILES_TO_CACHE = ["/", "./index.html", "./styles.css,", "./index.js"];
 
 const PRECACHE = "precache-v1";
 const RUNTIME = "runtime";

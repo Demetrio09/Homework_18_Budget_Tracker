@@ -5,7 +5,8 @@
     {
       "src": "./icons/icon-192x169.png",
       "sizes": "192x169",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "./icons/icon-512x452.png",
