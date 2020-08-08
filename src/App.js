@@ -1,14 +1,19 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 import getUsers from "./utils/API.js";
+import Main from "./components/Main";
+import Header from "./components/Header";
 
-function App() {
-  console.log(getUsers);
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    console.log(getUsers);
+    return (
+      <div>
+        <Header />
+        <Main />
+      </div>
+    );
+  }
 }
 
 export default App;
